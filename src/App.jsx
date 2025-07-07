@@ -2,7 +2,12 @@ import React from 'react'
 
 function App() {
   return (
-    <div>App</div>
+    <div>
+      <button>home</button>
+      <button>messaging</button>
+      <button>jobs</button>
+      <button>people</button>
+    </div>
   )
 }
 
