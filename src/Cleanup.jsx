@@ -25,6 +25,9 @@ const Timer = () => {
       setSeconds(prev => prev + 1)
     } , 1000)
 
+ 
+    // example of cleanup isFunctionExpression. these are provided by javascript just like
+    // setInterval
     return function(){
       clearInterval(clock)
     }
